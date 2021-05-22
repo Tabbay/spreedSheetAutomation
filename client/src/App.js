@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
-import './App.css';
-import Form from './components/Form';
-
+import "./App.css";
+import React from "react";
+import Form from "./components/Form";
 
 const App = () => {
-  const [firstName, setFirstName] = useState('');   
-  const [email, setEmail] = useState('');
   return (
-    <div className="">
-      <Form handleEmail={setEmail} handleFirstName={setFirstName}/>
+    <div className=''>
+      <Form />
     </div>
   );
-}
+};
 
 export default App;
